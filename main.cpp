@@ -201,9 +201,9 @@ int main()
 								score += full_lines_nmb * 100;
 								switch (full_lines_nmb)
 								{
-								case 2: score += 50;
-								case 3: score += 150;
-								case 4: score += 250;
+								case 2: score += 50; break;
+								case 3: score += 150; break;
+								case 4: score += 250; break;
 								default: break;
 								}
 								for (auto line : full_lines)
